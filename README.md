@@ -8,6 +8,6 @@
  
 ## Usage
  - Set GVM root folder running command `gvm root <path>` - this folder will be used for your Go versions 
- - Chose version of Go that you want to install for list - wtih command `gvm list -g` 
- - Install Go version with `gvm install <version>`
+ - Chose version of Go that you want to install from list - with command `gvm list -g` 
+ - Install a Go version with `gvm install <version>`
  - And use it with `gvm use <version>`
