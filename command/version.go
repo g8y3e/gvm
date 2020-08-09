@@ -6,5 +6,5 @@ import (
 )
 
 func Version(reg *registry.Registry) {
-	fmt.Println(reg.AppCofig.GetString("APP_VERSION"))
+	fmt.Println(reg.AppVersion)
 }
