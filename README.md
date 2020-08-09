@@ -7,7 +7,7 @@
  - Add this folder in PATH environment variable
  
 ## Usage
- - Set GVM root folder running command `gvm root <path>` - this folder will be used for installing new versions of Go
+ - Set GVM root folder running command `gvm root <path>` - this folder will be used for your Go versions 
  - Chose version of Go that you want to install for list - wtih command `gvm list -g` 
  - Install Go version with `gvm install <version>`
  - And use it with `gvm use <version>`
