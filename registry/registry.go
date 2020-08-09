@@ -5,6 +5,7 @@ import (
 	"github.com/g8y3e/gvm/helper"
 	"github.com/g8y3e/gvm/registry/config"
 	"os"
+	"runtime"
 	"sort"
 )
 
@@ -38,7 +39,7 @@ func New() *Registry {
 	sort.Strings(versionKeys)
 
 	// get system name
-	systemName := "windows"
+	systemName := runtime.GOOS
 
 	return &Registry{
 		AppVersion:    config.AppVersion,
